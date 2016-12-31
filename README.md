@@ -16,4 +16,4 @@ TravelSnap  is  a  location  based  service  that  allows  users  to  easily  pu
 
 ## Website
 
-A website was also created as part of the project to allow users to share their photos to others. [Implementation Document](https://dl.dropboxusercontent.com/u/40807068/glaceyfypreport.docx) includes an example of photos for a specific user(The clustering library used in this project is not updated, while it still works various graphics are broken. To view a cluster simply click the number "15" on the map.
+A website was also created as part of the project to allow users to share their photos to others. [Example Map](https://travel-snap.herokuapp.com/map/2CVN7vpEoF) includes an example of photos for a specific user(The clustering library used in this project is not updated, while it still works various graphics are broken. To view a cluster simply click the number "15" on the map.
