@@ -12,7 +12,7 @@ TravelSnap  is  a  location  based  service  that  allows  users  to  easily  pu
 
 ## Documents
 
-[Implementation Document](https://dl.dropboxusercontent.com/u/40807068/glaceyfypreport.docx) This document explains the implementation of the project in further detail.
+[Implementation Document](https://dl.dropboxusercontent.com/u/40807068/glaceyfypreport.docx) - This document explains the implementation of the project in further detail.
 
 ## Website
 
