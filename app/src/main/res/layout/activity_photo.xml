@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    tools:context="ie.wit.gareth.travelsnap.activities.PhotoActivity"
+    >
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/photoTitle"
+        android:hint="@string/photo_title"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/imagePreview"
+        android:layout_alignEnd="@+id/imagePreview" />
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imagePreview"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/photoTitle"
+        android:layout_alignParentBottom="true" />
+
+    <com.software.shell.fab.ActionButton
+        android:id="@+id/upload_button"
+        android:layout_width="wrap_content"
+        fab:type = "DEFAULT"
+        fab:button_color = "#1F9BDE"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        fab:image = "@drawable/ic_upload_white_36dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="15dp"
+
+        android:onClick="uploadPhoto" />
+
+    <com.software.shell.fab.ActionButton
+        android:id="@+id/save_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        fab:type = "DEFAULT"
+        fab:button_color = "#1F9BDE"
+        fab:image = "@drawable/ic_sd_white_36dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="15dp"
+        android:onClick="savePhoto" />
+
+
+</RelativeLayout>

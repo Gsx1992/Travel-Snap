@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="ie.wit.gareth.travelsnap.helpers.ScreenSlideFragment">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:text="@string/img_title"
+    android:id="@+id/imageTitle"
+    android:layout_above="@+id/imageDate"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true" />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:text="@string/date"
+    android:id="@+id/imageDate"
+        android:layout_alignBottom="@+id/pageNo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+<view
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scaleType="fitXY"
+    android:adjustViewBounds="true"
+
+    class="com.parse.ParseImageView"
+    android:id="@+id/mapImageView"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true"
+    android:layout_above="@+id/imageTitle"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/imageID"
+        android:layout_above="@+id/mapImageView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pageNo"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/mapImageView"
+        android:layout_alignEnd="@+id/mapImageView" />
+
+</RelativeLayout>

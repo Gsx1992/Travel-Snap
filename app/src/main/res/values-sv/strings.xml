@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name = "yes">Ja</string>
+    <string name = "no">Ingen</string>
+    <string name = "greeting">Hej </string>
+    <string name = "photos_taken">Bilder Tagna: </string>
+    <string name="loading">Laddar</string>
+    <string name="title_activity_local_test">Sparade Bilder</string>
+    <string name="title_activity_photo">Förhandsgranskning</string>
+    <string name="action_camera">Kamera</string>
+    <string name="photo_title">Ange Bildnamn</string>
+    <string name="launch_camera">Starta Kamera</string>
+    <string name="saved_photos">Sparade Bilder</string>
+    <string name="up_all">Massuppladdning</string>
+    <string name="delete_all">Rensa Bilder</string>
+    <string name="upload_dialog">Vill du ladda upp denna bild?</string>
+    <string name="upload">Ladda Upp</string>
+    <string name="maps">Karta</string>
+    <string name="save">Spara</string>
+    <string name="saved">Sparad Bilder</string>
+    <string name="city">Stad: </string>
+    <string name="date">Datum: </string>
+    <string name="delete">Ta Bort</string>
+    <string name="gallery">Galleri</string>
+    <string name="another_photo">Vill du fortsätta ta bilder?</string>
+    <string name="del_all_local">Rensa Lokala Bilder</string>
+    <string name="another">Annan</string>
+</resources>
+

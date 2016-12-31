@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="ie.wit.gareth.travelsnap.activities.RegistrationActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:drawableLeft="@drawable/ic_account_grey600_24dp"
+        android:ems="10"
+        android:id="@+id/nameRegister"
+        android:hint="@string/name"
+        android:layout_marginTop="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/emailRegister"
+        android:layout_alignStart="@+id/emailRegister" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/emailRegister"
+        android:drawableLeft="@drawable/ic_email_grey600_24dp"
+        android:hint="@string/email"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/nameRegister"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/passwordRegister"
+        android:hint="@string/password"
+        android:drawableLeft="@drawable/ic_action_secure"
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/emailRegister"
+        android:layout_alignLeft="@+id/emailRegister"
+        android:layout_alignStart="@+id/emailRegister" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/signup"
+        android:id="@+id/signupButton"
+        android:onClick="userRegister"
+        android:layout_below="@+id/passwordRegister"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp" />
+
+</RelativeLayout>

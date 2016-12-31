@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MapsActivity">
+    <item android:id="@+id/action_camera" android:title="@string/action_camera"
+        android:orderInCategory="100" app:showAsAction="always" android:icon="@drawable/ic_action_camera" />
+    <item android:id="@+id/action_saved_photos" android:title="@string/saved" android:orderInCategory="100" app:showAsAction="never"/>
+    <item android:id ="@+id/action_delete_all_remote" android:title="@string/delete_all" android:orderInCategory="100" app:showAsAction="never"/>
+</menu>

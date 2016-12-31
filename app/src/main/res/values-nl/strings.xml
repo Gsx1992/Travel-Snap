@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title_activity_local_test">Opgeslagen Fotos</string>
+    <string name="title_activity_photo">Foto Voorbeelden</string>
+    <string name="photo_title">Plaats titel van foto</string>
+    <string name="launch_camera">Camera opstarten</string>
+    <string name="saved_photos">Opgeslagen fotos</string>
+    <string name = "up_all">Upload Alle fotos</string>
+    <string name="delete_all">Verwijder Alles</string>
+    <string name = "upload_dialog">Zou je deze foto willen uploaden?</string>
+    <string name="upload">Uploaden</string>
+    <string name="maps">Kaart</string>
+    <string name = "save">Opslaan</string>
+    <string name="saved">Opgeslagen Fotos</string>
+    <string name="city">Stad: </string>
+    <string name="date">Datum: </string>
+    <string name="delete">Verwijder</string>
+    <string name="gallery">Gallerij</string>
+    <string name = "another_photo">Zou je nog een foto willen nemen?</string>
+    <string name = "del_all_local">Dit zal alle opgeslagen fotos verwijderen</string>
+    <string name = "greeting">Hallo</string>
+    <string name = "photos_taken">Genomen fotos: </string>
+    <string name = "yes">Ja</string>
+    <string name = "no">Nee</string>
+    <string name="another">Nog Een?</string>
+    <string name="loading">Laden</string>
+
+</resources>
+

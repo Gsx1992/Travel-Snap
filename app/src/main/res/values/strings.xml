@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TravelSnap</string>
+    <string name="action_settings">Settings</string>
+    <string name = "greetings">Hi </string>
+    <string name="action_camera">Camera</string>
+    <string name="contact">Contact</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="maps">Map</string>
+    <string name="up_all">Upload All</string>
+    <string name="title_activity_contact">ContactActivity</string>
+    <string name="title_activity_registration">RegistrationActivity</string>
+    <string name="register">Register</string>
+    <string name="user_name">Username</string>
+    <string name="email">Email</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="signup">Sign Up</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="logout">Logout</string>
+    <string name="title_activity_image_view">ImageViewActivity</string>
+    <string name="img_title">No Image Title</string>
+    <string name="password_reset">Reset Password</string>
+    <string name="title_activity_reset">ResetActivity</string>
+
+    <string name="greeting">Hi</string>
+    <string name = "del_all_local">This will delete all locally saved images</string>
+    <string name="title_activity_photo">Photo Preview</string>
+    <string name="photo_title">Enter photo title</string>
+    <string name="launch_camera">Launch Camera</string>
+    <string name="saved_photos">Saved Photos</string>
+    <string name = "photos_taken">Photo(s) uploaded: </string>
+    <string name = "upload_all">Upload All</string>
+    <string name="delete_all">Delete All</string>
+    <string name = "upload_dialog">Would you like to upload this photo?</string>
+    <string name = "another_photo">Would you like to take another photo?</string>
+    <string name="upload">Upload</string>
+    <string name = "save">Save</string>
+    <string name="saved">Saved Photos</string>
+    <string name="city">City: </string>
+    <string name="date">Date: </string>
+    <string name="delete">Delete</string>
+    <string name="gallery">Gallery</string>
+    <string name="title_activity_photo_grid">PhotoGridActivity</string>
+    <string name="title_activity_photo_slider">PhotoSliderActivity</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_local_test">Saved Photos</string>
+    <string name="title_activity_local_photo_adapter">LocalPhotoAdapter</string>
+    <string name="title_activity_new_test">NewTestActivity</string>
+    <string name="title_activity_single_photo">SinglePhotoActivity</string>
+    <string name = "loading">Loading</string>
+    <string name = "yes">Yes</string>
+    <string name = "no">No</string>
+    <string name="another">Another?</string>
+
+</resources>
