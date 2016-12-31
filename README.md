@@ -8,6 +8,7 @@ TravelSnap  is  a  location  based  service  that  allows  users  to  easily  pu
 * [Google Maps](https://developers.google.com/maps/documentation/android-api/) - Google maps was used to display user photos on the website and in the application.
 * [Marker Clustering](https://developers.google.com/maps/documentation/javascript/marker-clustering) - Marker Clusterer was used to cluster photos for the website.
 * [Facebook](https://developers.facebook.com/docs/android/) - The Facebook SDK was used to share user maps to Facebook.
+* [ParseUI](https://github.com/ParsePlatform/ParseUI-Android) - ParseUI was used to create the user login and registration pages.
 
 
 ## Documents
